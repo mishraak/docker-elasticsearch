@@ -54,4 +54,4 @@ You can deploy this on any cloud env that supports docker containers like Amazon
 
 ## Authors
 
-* **Akshay Mishra** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Akshay Mishra** 
