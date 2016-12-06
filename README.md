@@ -7,13 +7,15 @@ You can use docker-compose.yml in this folderto connect my docker-elasticsearch,
 
 ## Getting Started
 There are two ways to buid this file.
-1. See below if you want to build and use this image separately.
+1. 
+See below if you want to build and use this image separately.
 Clone the repository to your machine and cd into it. Then simply build the image using given Dockerfile and config file using docker build command as follows. 
 
 ```	
 docker build -t <name of your choice> .
 ```	
-2. See below if you want to build my custom E,L,K(just UI, not actual Kibana) images together to plot the scatterplot.
+2. 
+See below if you want to build my custom E,L,K(just UI, not actual Kibana) images together to plot the scatterplot.
 For this to work, download Elasticsearch, Logstash and docker-elk-ui images to your machine inside a folder let's say docker-elk. Now cd to that folder and this image (and other) will be built from scratch automatically when you fire coomand as below :
 
 ```
