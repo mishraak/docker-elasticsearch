@@ -10,9 +10,9 @@ There are two ways to use this image.
 1. Simply build the image using given Dockerfile and config file using docker build command as follows. 
    Clone the repository to your machine and cd into it.
 
-	```
-	docker build -t <name of your choice> .
-	```
+```	
+docker build -t <name of your choice> .
+```	
 
 2. For this to work, download Elasticsearch, Logstash and docker-elk-ui images to your machine inside a folder let's say docker-elk.
    	Now cd to that folder and this image (and other) will be built from scratch automatically when you fire coomand as below :
