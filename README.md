@@ -3,6 +3,7 @@
 This is a custom image for ES I'm using for my docker-elk project. 
 We are mostly default ES except a couple of tweaks to enable CORS on ES so as to make ajax calls from our web page successfully.
 Even though this image is built to ideally run in conjunction with other two images but you may edit and use it by updating config and creating a separate image.
+You can use docker-compose.yml in this folderto connect my docker-elasticsearch, docker-logstash and docker-elk-ui images together using docker-compose.
 
 ## Getting Started
 
